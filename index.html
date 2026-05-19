@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PES 2009 Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Teko:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-panel">
+        <img
+          class="brand-logo"
+          src="https://static.wikia.nocookie.net/logopedia/images/9/9b/Pes_2009.svg/revision/latest/scale-to-width-down/300?cb=20220604151314"
+          alt="Logo de PES 2009"
+        >
+      </div>
+
+      <nav class="nav-groups" aria-label="Secciones principales">
+        <details class="nav-group" open>
+          <summary>Jugadores</summary>
+          <button class="nav-link is-active" data-target="jugadores">Galeria y fichas</button>
+        </details>
+
+        <details class="nav-group">
+          <summary>Equipos</summary>
+          <button class="nav-link" data-target="equipos">Equipos Memory 4</button>
+        </details>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Master League Visual Pack</p>
+          <h2>COPA LOCALI III</h2>
+          <p class="hero-subtitle">Que comience el espectaculo de la tercera edicion.</p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span>Bloques</span>
+            <strong>2</strong>
+          </div>
+          <div class="stat-card">
+            <span>Estado</span>
+            <strong>Base lista</strong>
+          </div>
+        </div>
+      </header>
+
+      <section id="jugadores" class="panel is-visible">
+        <div class="section-head">
+          <p class="section-tag">Jugadores</p>
+          <h3>Galeria principal</h3>
+        </div>
+        <div class="player-grid" id="playerGrid"></div>
+      </section>
+
+      <section id="equipos" class="panel">
+        <div class="section-head">
+          <p class="section-tag">Equipos</p>
+          <h3>Equipos Memory 4</h3>
+        </div>
+        <div class="team-list" id="teamList"></div>
+      </section>
+
+    </main>
+  </div>
+
+  <div class="player-modal" id="playerModal" aria-hidden="true">
+    <div class="player-modal-backdrop" data-close-modal></div>
+    <div class="player-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalPlayerName">
+      <button class="player-modal-close" type="button" data-close-modal aria-label="Cerrar ficha">x</button>
+      <div class="player-modal-media">
+        <img id="modalPlayerImage" alt="">
+      </div>
+      <div class="player-modal-content">
+        <p class="section-tag">Jugador</p>
+        <div class="player-modal-heading">
+          <h3 id="modalPlayerName"></h3>
+          <span class="player-trophies" id="modalPlayerTrophies"></span>
+        </div>
+        <p class="player-modal-role" id="modalPlayerRole"></p>
+        <p class="player-modal-blurb" id="modalPlayerBlurb"></p>
+        <div class="player-modal-text" id="modalPlayerText"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
