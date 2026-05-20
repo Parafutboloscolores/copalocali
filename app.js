@@ -106,6 +106,13 @@ const players = [
     role: "El Purista de Toda la Vida",
     blurb: "Hasta el final, testarudo, pa que tu me entiendas.",
     text: "Una de las parejas mas cotizadas de los cruces gracias a sus incontables horas de entrenamiento en el PES 2009 y a esa mirada profunda que intimida a los rivales. Su libro de estrategia solo tiene una pagina: juego por la banda y nunca por el centro. Un jugador renegon, proteston, pero con un alma asociativa innegable que siempre repite su famosa frase: Hay que hacer la de toda la vida. Aunque todavia no sabe lo que es catar el cristal y las mieles de la Copa Locali, su avatar viene con ganas de quedarse hasta el final y descubrir si este ano los cruces le sonrien."
+  },
+  {
+    name: "MIGUEL",
+    image: "Img/MIGUEL.png",
+    role: "La Carretilla Mecanica",
+    blurb: "Competitividad legendaria, Iniesta defendiendo, pina.",
+    text: "Es, probablemente, la bolita que cualquier aspirante serio al titulo desea ver salir del bombo... aunque tambien sabe que aceptar esa alianza implica firmar un contrato emocional de alto rendimiento. Miguel no entiende el futbol virtual como entretenimiento. Intensidad constante, mentalidad ganadora y una obsesion casi enfermiza por competir al maximo nivel. Si juegas con el, recibiras motivacion, liderazgo y una presion que no todo participante soporta. Leyenda viva del Locali, ha protagonizado algunas de las gestas mas recordadas y tambien algunas de las injusticias mas dolorosas del torneo. Cruces imposibles, arbitrajes discutibles y partidos malditos, como aquella segunda edicion junto a Cristian Zanche, donde partian como favoritos indiscutibles y el destino decidio otra cosa. Miguel exige compromiso. Corrige, ordena, dirige y empuja. No acepta medias tintas ni partidos tibios. Quiere ganar, siempre. Y quiere que tu tambien quieras ganar... incluso mas de lo que pensabas posible. Este ano regresa con una idea clara, casi obsesiva: demostrar que su famosa tactica, La Carretilla Mecanica, no es solo una estrategia, sino un metodo infalible hacia el cristal."
   }
 ];
 
